@@ -1,0 +1,66 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+header {
+	font-size: 30px;
+	background-color: #d7e8c45e;
+	text-align: center;
+    padding-bottom: 15px;
+}
+
+.title {
+	font-family: 'Charmonman', cursive;
+	text-align: center;
+	padding: 15px;
+}
+
+section {
+	padding: 15px;
+}
+
+#tagFirst, #tagSecond, #general{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#tagFirst input, #tagSecond input{
+	width: 50%;
+	font-size: 20px;
+	padding: 5px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	outline: none;
+}
+
+#tagFirst input:focus, #tagSecond input:focus{
+	border-color : red;
+}
+
+#tagFirstResult img, #tagSecondResult img{
+	width: 45%;
+	padding: 5px;
+}
+
+.image{
+	text-align: center;
+}
+
+.image img{
+	width: 45%;
+	padding: 5px;
+}
+
+#general{
+	font-family: 'Charmonman', cursive;
+	text-align:center;
+	font-size: 26px;
+}
+
+#general button {
+	font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
